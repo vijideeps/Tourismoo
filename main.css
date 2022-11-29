@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.navbar {
+    background:#077cb3;
+    color: white;
+}
+.hero-wrap{
+    width:100%;
+    height:800px;
+    position:relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index:0;
+}
+
+.hero-wrap .main-text{
+    height:800px!important;
+
+}
+.heading-section h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-black .mb-2{
+     height:800px!important;
+
+}
+.btn-about{
+    background-color: #030157!important;
+    border-radius: 5px;
+    color:#fff!important;
+    margin-right:5px;
+    margin-left:5px;
+    padding:5px 17px;
+}
+
+.popular {
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 340px;
+  }
+  .popular:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: '';
+  }
+  .all-image {
+    padding-bottom: 75px;
+    position: relative;
+    margin-top: -295px;
+  }
+  .all-image .single-img {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .all-image .single-img .img-thumb {
+    height: 410px;
+  }
+  .all-image .single-img .img-thumb img {
+    width: 100%;
+    height: 100%;
+  }
+  .services .icon-circle{
+    text-align: center;
+    padding: 40px 20px;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 2px 4px rgba(19,19,19,0.5);
+}
+.services .icon-circle.purple{
+    background: #3e0283;
+    color:#fff;
+}
+.services .icon-circle.pink{
+    background: #c405ca;
+    color:#fff;
+}
+.services .icon-circle.yellow{
+    background: #f7a91a;
+    color:#fff;
+}
+.services .icon-circle.blue{
+    background: #021633;
+    color:#fff;
+
+}
+.services .icon-circle .icon{
+    margin:0 auto;
+    width: 64px;
+    height:64px;
+    border-radius: 50px;
+    border:1px solid #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+}
+.services .icon-circle .icon i{
+    font-size: 28px;
+}
+.services .icon-circle h4{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.services .icon-circle p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.services .icon-circle:hover{
+    border-color: #025277;
+    
+}
+.services .icon-circle:hover .icon{
+    color:#fff;
+    background: #004299;
+}
